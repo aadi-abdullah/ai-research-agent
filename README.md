@@ -1,3 +1,5 @@
+![Banner](assets/banner.png)
+
 # 🧠 AI Research Agent
 
 > Autonomous research agent that searches the web in real-time, synthesises multiple sources using LLMs, and generates structured, downloadable PDF reports — all from a single query.
@@ -12,13 +14,6 @@ AI Engineer · LangChain · Groq · Streamlit
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aadi--abdullah-0A66C2?logo=linkedin)](https://www.linkedin.com/in/aadi-abdullah)
 
 ---
-![Banner](assets/banner.png)
-
-<!-- Replace the demo placeholder with: -->
-![App Screenshot](assets/demo.png)
-
-<!-- Add after the How It Works section: -->
-![Architecture](assets/architecture.png)
 
 ## Overview
 
@@ -32,13 +27,15 @@ No copy-pasting. No tab-switching. Just a question and a report.
 
 ## Demo
 
-![AI Research Agent Demo](assets/demo.png)
+![App Screenshot](assets/demo.png)
 
 **Try it live →** [aadi-research-agent.streamlit.app](https://aadi-research-agent.streamlit.app)
 
 ---
 
 ## How It Works
+
+![Architecture](assets/architecture.png)
 
 ```
 User Query
@@ -89,6 +86,11 @@ ai-research-agent/
 ├── app.py                  # Streamlit frontend
 ├── config.py               # API key loader (.env / Streamlit secrets)
 ├── requirements.txt
+│
+├── assets/
+│   ├── banner.png          # Hero banner
+│   ├── demo.png            # App screenshot
+│   └── architecture.png    # Architecture diagram
 │
 ├── agents/
 │   ├── search_agent.py     # Tavily web search agent
