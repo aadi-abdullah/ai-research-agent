@@ -12,6 +12,13 @@ AI Engineer · LangChain · Groq · Streamlit
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aadi--abdullah-0A66C2?logo=linkedin)](https://www.linkedin.com/in/aadi-abdullah)
 
 ---
+![Banner](assets/banner.png)
+
+<!-- Replace the demo placeholder with: -->
+![App Screenshot](assets/demo.png)
+
+<!-- Add after the How It Works section: -->
+![Architecture](assets/architecture.png)
 
 ## Overview
 
